@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>This profile allows specified applications to display information to the logged-in user.</string>
+			<key>PayloadDisplayName</key>
+			<string>Privacy Settings Whitelist - McAfee</string>
+			<key>PayloadIdentifier</key>
+			<string>com.company.mcafee.tcc.privacy.whitelist.1D8C87F8-AD43-11E8-BE7D-D0817ADA38E4</string>
+			<key>PayloadOrganization</key>
+			<string>Company Name</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>1D8C87F8-AD43-11E8-BE7D-D0817ADA38E4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>AppleEvents</key>
+				<array>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.apple.systemevents" and anchor apple</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.apple.systemevents</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.yourcompany.Menulet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW
+library =&gt; identifier libfmphelpers and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
+						<key>Comment</key>
+						<string>Allow AppleEvents control for Menulet</string>
+						<key>Identifier</key>
+						<string>com.yourcompany.Menulet</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.apple.systemuiserver" and anchor apple</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.apple.systemuiserver</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.yourcompany.Menulet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW
+library =&gt; identifier libfmphelpers and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
+						<key>Comment</key>
+						<string>Allow AppleEvents control for Menulet</string>
+						<key>Identifier</key>
+						<string>com.yourcompany.Menulet</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.apple.finder" and anchor apple</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.apple.finder</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.yourcompany.Menulet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW
+library =&gt; identifier libfmphelpers and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
+						<key>Comment</key>
+						<string>Allow AppleEvents control for Menulet</string>
+						<key>Identifier</key>
+						<string>com.yourcompany.Menulet</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.yourcompany.Menulet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW
+library =&gt; identifier libfmphelpers and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
+						<key>Comment</key>
+						<string>Allow SystemPolicyAllFiles control for Menulet</string>
+						<key>Identifier</key>
+						<string>com.yourcompany.Menulet</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier fmpd and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW
+library =&gt; identifier "libeventwriter.5" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
+						<key>Comment</key>
+						<string>Allow SystemPolicyAllFiles control for fmpd</string>
+						<key>Identifier</key>
+						<string>/usr/local/McAfee/fmp/bin/fmpd</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>This profile allows specified applications to display information to the logged-in user.</string>
+	<key>PayloadDisplayName</key>
+	<string>Privacy Settings Whitelist - McAfee</string>
+	<key>PayloadIdentifier</key>
+	<string>com.company.mcafee.tcc.privacy.whitelist</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadScope</key>
+	<string>system</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>1D8D8EDC-AD43-11E8-8BF4-D0817ADA38E4</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
