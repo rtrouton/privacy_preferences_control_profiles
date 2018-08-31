@@ -33,8 +33,7 @@
 						<key>Allowed</key>
 						<true/>
 						<key>CodeRequirement</key>
-						<string>identifier "com.yourcompany.Menulet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW
-library =&gt; identifier libfmphelpers and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
+						<string>identifier "com.yourcompany.Menulet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
 						<key>Comment</key>
 						<string>Allow AppleEvents control for Menulet</string>
 						<key>Identifier</key>
@@ -52,8 +51,7 @@ library =&gt; identifier libfmphelpers and anchor apple generic and certificate 
 						<key>Allowed</key>
 						<true/>
 						<key>CodeRequirement</key>
-						<string>identifier "com.yourcompany.Menulet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW
-library =&gt; identifier libfmphelpers and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
+						<string>identifier "com.yourcompany.Menulet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
 						<key>Comment</key>
 						<string>Allow AppleEvents control for Menulet</string>
 						<key>Identifier</key>
@@ -71,8 +69,7 @@ library =&gt; identifier libfmphelpers and anchor apple generic and certificate 
 						<key>Allowed</key>
 						<true/>
 						<key>CodeRequirement</key>
-						<string>identifier "com.yourcompany.Menulet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW
-library =&gt; identifier libfmphelpers and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
+						<string>identifier "com.yourcompany.Menulet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
 						<key>Comment</key>
 						<string>Allow AppleEvents control for Menulet</string>
 						<key>Identifier</key>
@@ -87,8 +84,7 @@ library =&gt; identifier libfmphelpers and anchor apple generic and certificate 
 						<key>Allowed</key>
 						<true/>
 						<key>CodeRequirement</key>
-						<string>identifier "com.yourcompany.Menulet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW
-library =&gt; identifier libfmphelpers and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
+						<string>identifier "com.yourcompany.Menulet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
 						<key>Comment</key>
 						<string>Allow SystemPolicyAllFiles control for Menulet</string>
 						<key>Identifier</key>
@@ -100,8 +96,7 @@ library =&gt; identifier libfmphelpers and anchor apple generic and certificate 
 						<key>Allowed</key>
 						<true/>
 						<key>CodeRequirement</key>
-						<string>identifier fmpd and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW
-library =&gt; identifier "libeventwriter.5" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
+						<string>identifier fmpd and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
 						<key>Comment</key>
 						<string>Allow SystemPolicyAllFiles control for fmpd</string>
 						<key>Identifier</key>
