@@ -8,15 +8,15 @@
 			<key>PayloadDescription</key>
 			<string>This profile allows specified applications to display information to the logged-in user.</string>
 			<key>PayloadDisplayName</key>
-			<string>Privacy Settings Whitelist - Jamf</string>
+			<string>Privacy Settings Whitelist - Jamf Notifications</string>
 			<key>PayloadIdentifier</key>
-			<string>com.company.jamf.tcc.privacy.whitelist.8BA4991E-AD42-11E8-89CA-D0817ADA38E4</string>
+			<string>com.company.jamf.notifications.tcc.privacy.whitelist.A1DD22DE-BC42-11E8-9DB6-D0817ADA38E4</string>
 			<key>PayloadOrganization</key>
 			<string>Company Name</string>
 			<key>PayloadType</key>
 			<string>com.apple.TCC.configuration-profile-policy</string>
 			<key>PayloadUUID</key>
-			<string>8BA4991E-AD42-11E8-89CA-D0817ADA38E4</string>
+			<string>A1DD22DE-BC42-11E8-9DB6-D0817ADA38E4</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Services</key>
@@ -35,7 +35,7 @@
 						<key>CodeRequirement</key>
 						<string>identifier "com.jamf.management.Jamf" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
 						<key>Comment</key>
-						<string>Allow AppleEvents control for Jamf</string>
+						<string>Allow Jamf to send AppleEvents control to System Events</string>
 						<key>Identifier</key>
 						<string>com.jamf.management.Jamf</string>
 						<key>IdentifierType</key>
@@ -53,7 +53,7 @@
 						<key>CodeRequirement</key>
 						<string>identifier "com.jamf.management.Jamf" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
 						<key>Comment</key>
-						<string>Allow AppleEvents control for Jamf</string>
+						<string>Allow Jamf to send AppleEvents control to SystemUIServer</string>
 						<key>Identifier</key>
 						<string>com.jamf.management.Jamf</string>
 						<key>IdentifierType</key>
@@ -71,7 +71,7 @@
 						<key>CodeRequirement</key>
 						<string>identifier "com.jamf.management.Jamf" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
 						<key>Comment</key>
-						<string>Allow AppleEvents control for Jamf</string>
+						<string>Allow Jamf to send AppleEvents control to Finder</string>
 						<key>Identifier</key>
 						<string>com.jamf.management.Jamf</string>
 						<key>IdentifierType</key>
@@ -89,7 +89,7 @@
 						<key>CodeRequirement</key>
 						<string>identifier "com.jamfsoftware.jamfAgent" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
 						<key>Comment</key>
-						<string>Allow AppleEvents control for jamfAgent</string>
+						<string>Allow jamfAgent to send AppleEvents control to System Events</string>
 						<key>Identifier</key>
 						<string>/usr/local/jamf/bin/jamfAgent</string>
 						<key>IdentifierType</key>
@@ -107,7 +107,7 @@
 						<key>CodeRequirement</key>
 						<string>identifier "com.jamfsoftware.jamfAgent" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
 						<key>Comment</key>
-						<string>Allow AppleEvents control for jamfAgent</string>
+						<string>Allow jamfAgent to send AppleEvents control to SystemUIServer</string>
 						<key>Identifier</key>
 						<string>/usr/local/jamf/bin/jamfAgent</string>
 						<key>IdentifierType</key>
@@ -125,7 +125,7 @@
 						<key>CodeRequirement</key>
 						<string>identifier "com.jamfsoftware.jamfAgent" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
 						<key>Comment</key>
-						<string>Allow AppleEvents control for jamfAgent</string>
+						<string>Allow jamfAgent to send AppleEvents control to Finder</string>
 						<key>Identifier</key>
 						<string>/usr/local/jamf/bin/jamfAgent</string>
 						<key>IdentifierType</key>
@@ -143,7 +143,7 @@
 						<key>CodeRequirement</key>
 						<string>identifier "com.jamfsoftware.jamf" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
 						<key>Comment</key>
-						<string>Allow AppleEvents control for jamf</string>
+						<string>Allow jamf to send AppleEvents control to System Events</string>
 						<key>Identifier</key>
 						<string>/usr/local/jamf/bin/jamf</string>
 						<key>IdentifierType</key>
@@ -161,7 +161,7 @@
 						<key>CodeRequirement</key>
 						<string>identifier "com.jamfsoftware.jamf" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
 						<key>Comment</key>
-						<string>Allow AppleEvents control for jamf</string>
+						<string>Allow jamf to send AppleEvents control to SystemUIServer</string>
 						<key>Identifier</key>
 						<string>/usr/local/jamf/bin/jamf</string>
 						<key>IdentifierType</key>
@@ -179,46 +179,7 @@
 						<key>CodeRequirement</key>
 						<string>identifier "com.jamfsoftware.jamf" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
 						<key>Comment</key>
-						<string>Allow AppleEvents control for jamf</string>
-						<key>Identifier</key>
-						<string>/usr/local/jamf/bin/jamf</string>
-						<key>IdentifierType</key>
-						<string>path</string>
-					</dict>
-				</array>
-				<key>SystemPolicyAllFiles</key>
-				<array>
-					<dict>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>identifier "com.jamf.management.Jamf" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
-						<key>Comment</key>
-						<string>Allow SystemPolicyAllFiles control for Jamf</string>
-						<key>Identifier</key>
-						<string>com.jamf.management.Jamf</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-					<dict>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>identifier "com.jamfsoftware.jamfAgent" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
-						<key>Comment</key>
-						<string>Allow SystemPolicyAllFiles control for jamfAgent</string>
-						<key>Identifier</key>
-						<string>/usr/local/jamf/bin/jamfAgent</string>
-						<key>IdentifierType</key>
-						<string>path</string>
-					</dict>
-					<dict>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>identifier "com.jamfsoftware.jamf" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
-						<key>Comment</key>
-						<string>Allow SystemPolicyAllFiles control for jamf</string>
+						<string>Allow jamf to send AppleEvents control to Finder</string>
 						<key>Identifier</key>
 						<string>/usr/local/jamf/bin/jamf</string>
 						<key>IdentifierType</key>
@@ -231,9 +192,9 @@
 	<key>PayloadDescription</key>
 	<string>This profile allows specified applications to display information to the logged-in user.</string>
 	<key>PayloadDisplayName</key>
-	<string>Privacy Settings Whitelist - Jamf</string>
+	<string>Privacy Settings Whitelist - Jamf Notifications</string>
 	<key>PayloadIdentifier</key>
-	<string>com.company.jamf.tcc.privacy.whitelist</string>
+	<string>com.company.jamf.notifications.tcc.privacy.whitelist</string>
 	<key>PayloadOrganization</key>
 	<string>Company Name</string>
 	<key>PayloadScope</key>
@@ -241,7 +202,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>8BA5A142-AD42-11E8-B92F-D0817ADA38E4</string>
+	<string>A1DE27B8-BC42-11E8-BDFC-D0817ADA38E4</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
