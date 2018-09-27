@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>This profile allows Microsoft Outlook and Skype for Business to send notifications to each other.</string>
+			<key>PayloadDisplayName</key>
+			<string>Privacy Settings Whitelist - Microsoft Outlook and Skype for Business</string>
+			<key>PayloadIdentifier</key>
+			<string>com.company.microsoft.outlook.skype.tcc.privacy.whitelist.65D2E697-C282-11E8-9ADF-F21898210BA3</string>
+			<key>PayloadOrganization</key>
+			<string>Company Name</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>65D2E697-C282-11E8-9ADF-F21898210BA3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>AppleEvents</key>
+				<array>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.microsoft.SkypeForBusiness" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = AL798K98FX</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.microsoft.SkypeForBusiness</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.microsoft.Outlook" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>Comment</key>
+						<string>Allow Microsoft Outlook to send AppleEvents control to Skype for Business</string>
+						<key>Identifier</key>
+						<string>com.microsoft.Outlook</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.microsoft.Outlook" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.microsoft.Outlook</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.microsoft.SkypeForBusiness" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = AL798K98FX</string>
+						<key>Comment</key>
+						<string>Allow Skype for Business to send AppleEvents control to Microsoft Outlook</string>
+						<key>Identifier</key>
+						<string>com.microsoft.SkypeForBusiness</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>This profile allows Microsoft Outlook and Skype for Business to send notifications to each other.</string>
+	<key>PayloadDisplayName</key>
+	<string>Privacy Settings Whitelist - Microsoft Outlook and Skype for Business</string>
+	<key>PayloadIdentifier</key>
+	<string>com.company.microsoft.outlook.skype.tcc.privacy.whitelist</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadScope</key>
+	<string>system</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>65D56C87-C282-11E8-897A-F21898210BA3</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
