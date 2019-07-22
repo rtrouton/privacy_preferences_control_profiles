@@ -10,13 +10,13 @@
 			<key>PayloadDisplayName</key>
 			<string>Privacy Settings Whitelist - Apple</string>
 			<key>PayloadIdentifier</key>
-			<string>com.company.apple.tcc.privacy.whitelist.C3078905-AD42-11E8-8755-D0817ADA38E4</string>
+			<string>com.company.apple.tcc.privacy.whitelist.D0966A35-AC97-11E9-AB54-D0817ADA38E4</string>
 			<key>PayloadOrganization</key>
 			<string>Company Name</string>
 			<key>PayloadType</key>
 			<string>com.apple.TCC.configuration-profile-policy</string>
 			<key>PayloadUUID</key>
-			<string>C3078905-AD42-11E8-8755-D0817ADA38E4</string>
+			<string>D0966A35-AC97-11E9-AB54-D0817ADA38E4</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Services</key>
@@ -35,7 +35,7 @@
 						<key>CodeRequirement</key>
 						<string>identifier "com.apple.Enterprise-Connect" and anchor apple</string>
 						<key>Comment</key>
-						<string>Allow AppleEvents control for Enterprise Connect</string>
+						<string>Allow Enterprise Connect to send AppleEvents control to System Events</string>
 						<key>Identifier</key>
 						<string>com.apple.Enterprise-Connect</string>
 						<key>IdentifierType</key>
@@ -53,7 +53,25 @@
 						<key>CodeRequirement</key>
 						<string>identifier "com.apple.Enterprise-Connect" and anchor apple</string>
 						<key>Comment</key>
-						<string>Allow AppleEvents control for Enterprise Connect</string>
+						<string>Allow Enterprise Connect to send AppleEvents control to SystemUIServer</string>
+						<key>Identifier</key>
+						<string>com.apple.Enterprise-Connect</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.apple.finder" and anchor apple</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.apple.finder</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.apple.Enterprise-Connect" and anchor apple</string>
+						<key>Comment</key>
+						<string>Allow Enterprise Connect to send AppleEvents control to Finder</string>
 						<key>Identifier</key>
 						<string>com.apple.Enterprise-Connect</string>
 						<key>IdentifierType</key>
@@ -69,9 +87,63 @@
 						<key>Allowed</key>
 						<true/>
 						<key>CodeRequirement</key>
+						<string>identifier "com.apple.ManagedClient" and anchor apple</string>
+						<key>Comment</key>
+						<string>Allow ManagedClient to send AppleEvents control to System Events</string>
+						<key>Identifier</key>
+						<string>com.apple.ManagedClient</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.apple.systemuiserver" and anchor apple</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.apple.systemuiserver</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.apple.ManagedClient" and anchor apple</string>
+						<key>Comment</key>
+						<string>Allow ManagedClient to send AppleEvents control to SystemUIServer</string>
+						<key>Identifier</key>
+						<string>com.apple.ManagedClient</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.apple.finder" and anchor apple</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.apple.finder</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.apple.ManagedClient" and anchor apple</string>
+						<key>Comment</key>
+						<string>Allow ManagedClient to send AppleEvents control to Finder</string>
+						<key>Identifier</key>
+						<string>com.apple.ManagedClient</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.apple.systemevents" and anchor apple</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.apple.systemevents</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
 						<string>identifier "com.apple.osascript" and anchor apple</string>
 						<key>Comment</key>
-						<string>Allow AppleEvents control for osascript</string>
+						<string>Allow osascript to send AppleEvents control to System Events</string>
 						<key>Identifier</key>
 						<string>/usr/bin/osascript</string>
 						<key>IdentifierType</key>
@@ -89,7 +161,7 @@
 						<key>CodeRequirement</key>
 						<string>identifier "com.apple.osascript" and anchor apple</string>
 						<key>Comment</key>
-						<string>Allow AppleEvents control for osascript</string>
+						<string>Allow osascript to send AppleEvents control to SystemUIServer</string>
 						<key>Identifier</key>
 						<string>/usr/bin/osascript</string>
 						<key>IdentifierType</key>
@@ -107,7 +179,7 @@
 						<key>CodeRequirement</key>
 						<string>identifier "com.apple.osascript" and anchor apple</string>
 						<key>Comment</key>
-						<string>Allow AppleEvents control for osascript</string>
+						<string>Allow osascript to send AppleEvents control to Finder</string>
 						<key>Identifier</key>
 						<string>/usr/bin/osascript</string>
 						<key>IdentifierType</key>
@@ -125,6 +197,18 @@
 						<string>Allow SystemPolicyAllFiles control for Enterprise Connect</string>
 						<key>Identifier</key>
 						<string>com.apple.Enterprise-Connect</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.apple.ManagedClient" and anchor apple</string>
+						<key>Comment</key>
+						<string>Allow SystemPolicyAllFiles control for ManagedClient</string>
+						<key>Identifier</key>
+						<string>com.apple.ManagedClient</string>
 						<key>IdentifierType</key>
 						<string>bundleID</string>
 					</dict>
@@ -152,12 +236,14 @@
 	<string>com.company.apple.tcc.privacy.whitelist</string>
 	<key>PayloadOrganization</key>
 	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
 	<key>PayloadScope</key>
 	<string>system</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>C30894B8-AD42-11E8-80E7-D0817ADA38E4</string>
+	<string>D0976100-AC97-11E9-828C-D0817ADA38E4</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
