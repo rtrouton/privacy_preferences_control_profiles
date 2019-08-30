@@ -10,13 +10,13 @@
 			<key>PayloadDisplayName</key>
 			<string>Privacy Settings Whitelist - McAfee</string>
 			<key>PayloadIdentifier</key>
-			<string>com.company.mcafee.tcc.privacy.whitelist.9F9667AB-EC43-11E8-8C48-D0817ADA38E4</string>
+			<string>com.company.mcafee.tcc.privacy.whitelist.A1B6E43D-CB23-11E9-BB1D-D0817ADA38E4</string>
 			<key>PayloadOrganization</key>
 			<string>Company Name</string>
 			<key>PayloadType</key>
 			<string>com.apple.TCC.configuration-profile-policy</string>
 			<key>PayloadUUID</key>
-			<string>9F9667AB-EC43-11E8-8C48-D0817ADA38E4</string>
+			<string>A1B6E43D-CB23-11E9-BB1D-D0817ADA38E4</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Services</key>
@@ -104,6 +104,42 @@
 						<key>IdentifierType</key>
 						<string>path</string>
 					</dict>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier VShieldTaskManager and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
+						<key>Comment</key>
+						<string>Allow SystemPolicyAllFiles control for VShieldTaskManager</string>
+						<key>Identifier</key>
+						<string>/usr/local/McAfee/Antimalware/VShieldTaskManager</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier VShieldScanner and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
+						<key>Comment</key>
+						<string>Allow SystemPolicyAllFiles control for VShieldScanner</string>
+						<key>Identifier</key>
+						<string>/usr/local/McAfee/Antimalware/VShieldScanner</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier VShieldService and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = GT8P3H7SPW</string>
+						<key>Comment</key>
+						<string>Allow SystemPolicyAllFiles control for VShieldService</string>
+						<key>Identifier</key>
+						<string>/usr/local/McAfee/Antimalware/VShieldService</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
 				</array>
 			</dict>
 		</dict>
@@ -123,7 +159,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>9F97D8F8-EC43-11E8-9D73-D0817ADA38E4</string>
+	<string>A1B7F2B5-CB23-11E9-8283-D0817ADA38E4</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
